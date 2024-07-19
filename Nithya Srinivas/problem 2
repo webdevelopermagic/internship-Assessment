@@ -1,4 +1,4 @@
-input_data = {a: 1, b: 2, c: 3}
+input_data = {'a': 1, 'b': 2, 'c': 3}
 
 output = []
 for key, value in input_data.items():
@@ -6,4 +6,3 @@ for key, value in input_data.items():
 
 print(output)
 
-#sample  Output: [{a: 1}, {b: 2}, {c: 3}]
