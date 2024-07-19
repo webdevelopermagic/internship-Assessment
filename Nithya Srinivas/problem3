@@ -1,0 +1,8 @@
+input_data = [{a: 1}, {b: 2}, {c: 3}]
+
+output = {key: value for d in input_data for key, value in d.items()}
+
+print(output)
+
+
+#sample Output: {a: 1, b: 2, c: 3}
